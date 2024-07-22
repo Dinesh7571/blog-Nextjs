@@ -3,7 +3,7 @@ import axios from 'axios';
 import Image from 'next/image'
 import React, { useState } from 'react'
 import { toast } from 'react-toastify';
-import '../styles/globals.css'
+
 const Header = () => {
   
   const [email,setEmail] = useState("");
