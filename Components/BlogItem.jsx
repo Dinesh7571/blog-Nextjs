@@ -2,7 +2,7 @@ import { assets, blog_data } from '@/Assests/assets'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-
+import '../styles/globals.css'
 const BlogItem = ({title,description,category,image,id}) => {
   return (
     <div className='max-w-[330px] sm:max-w-[300px] bg-white border border-black hover:shadow-[-7px_7px_0px_#000000]'>
